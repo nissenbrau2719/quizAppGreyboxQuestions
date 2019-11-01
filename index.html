@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App Greybox Wireframe</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header role='banner'>
+    <h1>Quiz</h1>
+    <section class='scorekeeping'>
+      <ul>
+        <li>Question: <span class="js-questionNum">#</span> of 10</li>
+        <li>Score: <span class="js-scoreTally">#</span> of 10</li>
+      </ul>
+    </section>
+  </header>
+  <main role="main" class="container">
+    <form class="quiz">
+      <fieldset>
+        <legend class="js-renderQuestion">Question goes here</legend>
+
+        <input type="radio" id="option1" name="question#" class="js-option1">
+        <label for="option1">option 1</label><br>
+
+        <input type="radio" id="option2" name="question#" class="js-option2">
+        <label for="option2">option 2</label><br>
+        
+        <input type="radio" id="option3" name="question#" class="js-option3">
+        <label for="option3">option 3</label><br>        
+
+        <input type="radio" id="option4" name="question#" class="js-option4">
+        <label for="option4">option 4</label><br>
+
+        <button type="submit" class="submit">Submit</button>
+      </fieldset>
+    </form>
+    <button class="js-restart">Restart Quiz</button>
+  </main>
+</body>
+</html>
